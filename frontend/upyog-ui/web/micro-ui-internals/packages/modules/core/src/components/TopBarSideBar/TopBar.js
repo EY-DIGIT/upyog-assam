@@ -108,7 +108,7 @@ const TopBar = ({
   return (
     <div className="topbar">
       {mobileView ? <Hamburger handleClick={toggleSidebar} color="#9E9E9E" /> : null}
-      <img className="city" src="https://in-egov-assets.s3.ap-south-1.amazonaws.com/images/Upyog-logo.png" />
+      <img className="city" src="https://assamey-filestore.s3.ap-south-1.amazonaws.com/assets/govt_assam_logo.png" />
       <span style={{ display: "flex", alignItems: "center", justifyContent: "space-between", width: "100%" }}>
         {loggedin &&
           (cityDetails?.city?.ulbGrade ? (
@@ -152,7 +152,7 @@ const TopBar = ({
                 />
               </div>
             )}
-            <img className="state" src="https://in-egov-assets.s3.ap-south-1.amazonaws.com/images/Upyog-logo.png" />
+            <img className="state" src="https://assamey-filestore.s3.ap-south-1.amazonaws.com/assets/govt_assam_logo.png" />
           </div>
         )}
       </span>

@@ -82,7 +82,7 @@ function ChatBot() {
       setMessages([
         {
           sender: "bot",
-          text: "Welcome to UPYOG, I am an AI Chatbot, How may I be of assistance",
+          text: "Welcome to Assam, I am an AI Chatbot, How may I be of assistance",
         },
       ]);
     } else {
